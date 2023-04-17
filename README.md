@@ -1,25 +1,24 @@
-Real-Time Chat Application with TypeScript and React
-This is a real-time chat application built with TypeScript and React that uses Socket.io for real-time communication. The application is deployed on Fly.io, which provides automatic scaling, multi-region deployment, and other features to ensure high availability, scalability, and performance.
+<h1>Real-Time Chat Application with TypeScript and React</h1> <br>
+This is a real-time chat application built with TypeScript and React that uses Socket.io for real-time communication. The application is deployed on Fly.io, which provides automatic scaling, multi-region deployment, and other features to ensure high availability, scalability, and performance.<br>
 
-Prerequisites
+<h2>Prerequisites</h2><br>
 Before you can run this application, you'll need to have the following installed on your machine:
 
 Node.js (v14.17.0 or later)
 Yarn (v1.22.10 or later)
-Fly CLI tool (v0.0.256 or later)
-Installation
+Fly CLI tool (v0.0.256 or later)<br>
+
+<h2>Installation</h2><br>
 To install and run this application, follow these steps:
 
-Clone this repository to your local machine.
-Navigate to the project root directory in your terminal.
-Run yarn install to install the required dependencies.
-Run yarn build to build the project.
-Run flyctl launch to deploy the project on Fly.io.
-Project Structure
+1. Clone this repository to your local machine.
+2. Navigate to the project root directory in your terminal.
+3. Run yarn install to install the required dependencies.
+4. Run yarn build to build the project.
+4. Run flyctl launch to deploy the project on Fly.io.<br>
+<h2>Project Structure</h2><br>
 The project is structured as follows:
 
-java
-Copy code
 ├── src/
 │   ├── client/
 │   │   ├── components/
@@ -38,6 +37,7 @@ Copy code
 ├── package.json
 ├── tsconfig.json
 └── ...
+
 src/ directory contains the application's source code.
 src/client/ directory contains the client-side code, which is built using React and TypeScript.
 src/server/ directory contains the server-side code, which is built using Node.js, Socket.io, and TypeScript.
